@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.admin-container {
+    width: 400px;
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Heading styling */
+.admin-container h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #333;
+}
+
+.admin-container h2 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Form styling */
+form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form button {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Message styling */
+.message {
+    color: green;
+    font-size: 16px;
+}
+
+/* Content list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Logout link styling */
+a {
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
